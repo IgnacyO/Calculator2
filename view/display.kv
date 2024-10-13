@@ -1,0 +1,33 @@
+
+
+<Display>:
+    orientation: "vertical"
+    size_hint: 1, None
+    height: 120
+    margin: '20dp'
+    padding: ('20dp', '0dp', '20dp', '0dp')
+    operation_label: operation_label
+    argument_label: argument_label
+
+    MDLabel:
+        id: operation_label
+        size_hint: 1, None
+        height: 40
+        margin: '20dp'
+        halign: "right"
+        theme_font_size: "Custom"
+        font_size: "28sp"
+        text: ""
+        theme_text_color: "Custom"
+        text_color: root.secondary_color
+
+    MDLabel:
+        id: argument_label
+        size_hint: 1, None
+        height: 64
+        halign: "right"
+        theme_font_size: "Custom"
+        font_size: "64sp"
+        text: "0"
+        theme_text_color: "Custom"
+        text_color: root.primary_color
